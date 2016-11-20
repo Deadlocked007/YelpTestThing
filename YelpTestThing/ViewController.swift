@@ -16,8 +16,8 @@ class ViewController: UIViewController {
 
     let baseUrl = "https://api.yelp.com/oauth2/token" //Url for getting access
     let grant_type = "client_credentials" //A paramter that tells the server we want access for "client"
-    let client_id = "518053Hp9nttpTmK1rW-ig" //App specific information so server know who is requesting and for what
-    let client_secret = "XPB9eyCOwsvoVSfeVteaEZ0VwkTDMAyJvZ7b3LW3iy8JJk2XOx1bp7SyCqhpfCTZ" //Pretty much same as previous
+    let client_id = "" //App specific information so server know who is requesting and for what. Put your id here.
+    let client_secret = "" //Pretty much same as previous but put your secret
     
     
     let searchURL = "https://api.yelp.com/v3/businesses/search" //Url for searching for things
